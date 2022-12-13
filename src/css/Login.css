@@ -1,14 +1,14 @@
-.cascading-right {
-  margin-right: -50px;
+.rounded-t-5 {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
-.backdrop {
-  background: hsla(0, 0%, 100%, 0.55);
-  backdrop-filter: blur(30px);
-}
+@media (min-width: 992px) {
+  .rounded-tr-lg-0 {
+    border-top-right-radius: 0;
+  }
 
-@media (max-width: 991.98px) {
-  .cascading-right {
-    margin-right: 0;
+  .rounded-bl-lg-5 {
+    border-bottom-left-radius: 0.5rem;
   }
 }

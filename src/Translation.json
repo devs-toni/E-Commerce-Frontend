@@ -7,7 +7,16 @@
       "email": "Email",
       "password": "Contraseña",
       "signup": "Registrate",
-      "orsocial": "o inicia sesión con:"
+      "orsocial": "o inicia sesión con:",
+      "signin": "Iniciar Sesión",
+      "remember": "Recordar",
+      "forgot": "Has olvidado la contraseña?"
+    },
+    "error": {
+      "ops": "Opps!",
+      "notFound": "Página no encontrada",
+      "dontExist": "La página que estás buscando no existe",
+      "home": "Volver"
     }
   },
   "en": {
@@ -17,8 +26,17 @@
       "lastname": "Last name",
       "email": "Email",
       "password": "Password",
-      "signup":  "Sign Up",
-      "orsocial": "or sign up with:"
+      "signup": "Sign Up",
+      "orsocial": "or sign up with:",
+      "signin": "Sign In",
+      "remember": "Remember Me",
+      "forgot": "Forgot Password?"
+    },
+    "error": {
+      "ops": "Opps!",
+      "notFound": "Page not found.",
+      "dontExist": "The page you're looking for doesn't exist",
+      "home": "Go Home"
     }
   }
 }
