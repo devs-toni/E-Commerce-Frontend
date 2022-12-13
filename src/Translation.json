@@ -1,0 +1,24 @@
+{
+  "es": {
+    "login": {
+      "title": "Registrate ahora",
+      "firstname": "Nombre",
+      "lastname": "Apellido",
+      "email": "Email",
+      "password": "Contraseña",
+      "signup": "Registrate",
+      "orsocial": "o inicia sesión con:"
+    }
+  },
+  "en": {
+    "login": {
+      "title": "Sign up now",
+      "firstname": "First name",
+      "lastname": "Last name",
+      "email": "Email",
+      "password": "Password",
+      "signup":  "Sign Up",
+      "orsocial": "or sign up with:"
+    }
+  }
+}
