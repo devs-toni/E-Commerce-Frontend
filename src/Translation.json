@@ -1,5 +1,12 @@
 {
   "es": {
+    "header":{
+      "bycicles":"Bicicletas",
+      "road":"CARRETERA",
+      "mtb":"MTB",
+      "ebike":"E-BIKE",
+      "contact":"Contactar"
+    },
     "login": {
       "title": "Registrate ahora",
       "firstname": "Nombre",
@@ -20,6 +27,13 @@
     }
   },
   "en": {
+    "header":{
+      "bycicles":"Bycicles",
+      "road":"ROAD",
+      "mtb":"MTB",
+      "ebike":"E-BIKE",
+      "contact":"Contact"
+    },
     "login": {
       "title": "Sign up now",
       "firstname": "First name",
