@@ -1,9 +1,11 @@
 import React, { useContext } from 'react'
+import { Link } from 'react-router-dom';
 import LanguageContext from '../context/LanguageContext';
 
 const Page404 = () => {
 
-  const {text} = useContext(LanguageContext)
+  const {text} = useContext(LanguageContext);
+  
   return (
     <div className="d-flex align-items-center justify-content-center vh-100">
             <div className="text-center">
@@ -12,7 +14,7 @@ const Page404 = () => {
                 <p className="lead">
                     {text.error.dontExist}
                   </p>
-                <a className="btn btn-primary">{text.error.home}</a>
+                <Link className="btn btn-primary" to='/login'>{text.error.home}</Link>
             </div>
         </div>
   )

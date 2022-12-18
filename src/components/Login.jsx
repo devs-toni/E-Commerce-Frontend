@@ -1,12 +1,13 @@
 import React from 'react';
 import { useContext } from 'react';
 import { Facebook, Github, Google, Twitter } from 'react-bootstrap-icons';
+import { Link } from 'react-router-dom';
 import LanguageContext from '../context/LanguageContext';
 import '../css/Login.css';
 
 const Login = () => {
 
-  const {text} = useContext(LanguageContext);
+  const { text } = useContext(LanguageContext);
 
   return (
     <section className="text-center text-lg-start">
@@ -52,6 +53,9 @@ const Login = () => {
                   </div>
                 </form>
               </div>
+              <Link to='/register'>
+                <h6 className="fw-bold mb-5 text-center pointer">{text.login.create}</h6>
+              </Link>
             </div>
           </div>
 

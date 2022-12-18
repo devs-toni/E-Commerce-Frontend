@@ -17,7 +17,8 @@
       "orsocial": "o inicia sesión con:",
       "signin": "Iniciar Sesión",
       "remember": "Recordar",
-      "forgot": "Has olvidado la contraseña?"
+      "forgot": "Has olvidado la contraseña?",
+      "create": "¿Crear una cuenta?"
     },
     "error": {
       "ops": "Opps!",
@@ -44,13 +45,14 @@
       "orsocial": "or sign up with:",
       "signin": "Sign In",
       "remember": "Remember Me",
-      "forgot": "Forgot Password?"
+      "forgot": "Forgot Password?",
+      "create": "¿Create an account?"
     },
     "error": {
       "ops": "Opps!",
       "notFound": "Page not found.",
       "dontExist": "The page you're looking for doesn't exist",
-      "home": "Go Home"
+      "home": "Go Back"
     }
   }
 }
